@@ -14,6 +14,13 @@
             <artifactId>netty-all</artifactId>
             <version>4.1.8.Final</version>
         </dependency>
+
+        <!--Google的Protobuf：对于POJO对象或各种业务对象要实现编码和解码-->
+        <dependency>
+            <groupId>com.google.protobuf</groupId>
+            <artifactId>protobuf-java</artifactId>
+            <version>3.6.1</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -32,6 +39,5 @@
                 </plugin>
             </plugins>
         </pluginManagement>
-
     </build>
 </project>
