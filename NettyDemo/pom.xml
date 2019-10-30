@@ -12,7 +12,7 @@
         <dependency>
             <groupId>io.netty</groupId>
             <artifactId>netty-all</artifactId>
-            <version>4.1.8.Final</version>
+            <version>4.1.42.Final</version>
         </dependency>
 
         <!--Google的Protobuf：对于POJO对象或各种业务对象要实现编码和解码-->
