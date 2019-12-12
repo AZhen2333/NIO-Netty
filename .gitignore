@@ -1,0 +1,8 @@
+*.zip
+*.rar
+*.via
+*.tmp
+*.err
+.idea
+*.iml
+out
