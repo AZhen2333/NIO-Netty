@@ -3,7 +3,7 @@ package Thread;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.ReentrantLock;
 
-public class ReentrantLockTest {
+public class ReentrantLockFairTest {
     static ReentrantLock lock = new ReentrantLock(true);
 
     public static void main(String[] args) {
