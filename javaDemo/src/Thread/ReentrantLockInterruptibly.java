@@ -24,7 +24,6 @@ public class ReentrantLockInterruptibly {
             this.firstLock = firstLock;
             this.secondLock = secondLock;
         }
-
         @Override
         public void run() {
             try {
